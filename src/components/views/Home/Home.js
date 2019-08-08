@@ -29,7 +29,7 @@ export default class Home extends Component {
         return (
             <div>
                 <h3>welcome home</h3>
-                <PriceTable />
+                <PriceTable data={this.state.items} />
             </div>
         )
     }
